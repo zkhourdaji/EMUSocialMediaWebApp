@@ -1,0 +1,14 @@
+﻿@model SigninViewModel
+
+<form asp-action="Signin" asp-controller="Account" method="post">
+    <label>
+        Email
+        <input asp-for="Email" />
+
+    </label>
+    <label>
+        Password
+        <input asp-for="Password" />
+    </label>
+    <input type="submit" />
+</form>

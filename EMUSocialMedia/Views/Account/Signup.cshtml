@@ -1,0 +1,13 @@
+﻿@model SignupViewModel
+
+<form asp-action="Signup" asp-controller="Account" method="post">
+    <label>
+        Email
+        <input asp-for="Email" />
+    </label>
+    <label>Password
+        <input asp-for="Password" />
+    </label>
+
+    <input value="Signup" type="submit" />
+</form>
